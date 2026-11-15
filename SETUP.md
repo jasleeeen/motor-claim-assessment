@@ -8,7 +8,7 @@ Copy-Item .env.example .env
 .\.venv\Scripts\python.exe -m pip install -e ".[vision]"
 ```
 
-Open `.env` and paste your Groq key after `GROQ_API_KEY=`.
+Open `.env` and paste your Groq key 
 
 The detector weights are too large for GitHub. Download both files from
 [this Drive folder](https://drive.google.com/drive/folders/1tV1ffWqlYVU-x_ZSpFASSvHl9e22QlkP?usp=sharing)
