@@ -1,5 +1,11 @@
 # AI motor claim assessment
 
+
+ALL LINKS :
+The detector weights: https://drive.google.com/drive/folders/1tV1ffWqlYVU-x_ZSpFASSvHl9e22QlkP?usp=drive_link
+The demo video : https://drive.google.com/file/d/1gNGmMs6WXpPOmJ4Cyr7pD7dIo3lX_Ubm/view?usp=sharing 
+
+
 Photographs of a damaged car and the customer's policy PDF go in. What comes out is a
 claim decision — `APPROVED`, `PARTIALLY_APPROVED`, `REJECTED` or
 `NEEDS_MANUAL_REVIEW` with the policy clauses it rests on, quoted and
