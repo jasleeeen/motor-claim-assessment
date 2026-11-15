@@ -1,0 +1,403 @@
+[
+ {
+  "id": "C01",
+  "policy": "active-package",
+  "incident": {
+   "date": "2026-09-15",
+   "cause": "accident",
+   "description": "Collided with a road divider at low speed."
+  },
+  "damaged_parts": [
+   "Front-bumper"
+  ],
+  "expected_outcome": "PARTIALLY_APPROVED",
+  "rationale": "Insured peril; bumper is plastic so the depreciation rate applies."
+ },
+ {
+  "id": "C02",
+  "policy": "active-package",
+  "incident": {
+   "date": "2026-09-15",
+   "cause": "accident",
+   "description": "Rear-ended at a traffic light."
+  },
+  "damaged_parts": [
+   "Back-bumper",
+   "Trunk"
+  ],
+  "expected_outcome": "PARTIALLY_APPROVED",
+  "rationale": "Insured peril; bumper attracts depreciation, boot does not."
+ },
+ {
+  "id": "C03",
+  "policy": "active-package",
+  "incident": {
+   "date": "2026-09-15",
+   "cause": "fire",
+   "description": "Engine bay caught fire while parked."
+  },
+  "damaged_parts": [
+   "Hood",
+   "Grille"
+  ],
+  "expected_outcome": "PARTIALLY_APPROVED",
+  "rationale": "Fire is listed in Section I; grille is plastic."
+ },
+ {
+  "id": "C04",
+  "policy": "active-package",
+  "incident": {
+   "date": "2026-09-15",
+   "cause": "theft",
+   "description": "Wing mirror stolen overnight."
+  },
+  "damaged_parts": [
+   "Mirror"
+  ],
+  "expected_outcome": "APPROVED",
+  "rationale": "Theft is an insured peril; no depreciation clause names a mirror."
+ },
+ {
+  "id": "C05",
+  "policy": "active-package",
+  "incident": {
+   "date": "2026-09-15",
+   "cause": "flood",
+   "description": "Car submerged during monsoon flooding."
+  },
+  "damaged_parts": [
+   "Front-door",
+   "Back-door"
+  ],
+  "expected_outcome": "APPROVED",
+  "rationale": "Flood is an insured peril; doors are metal."
+ },
+ {
+  "id": "C06",
+  "policy": "active-package",
+  "incident": {
+   "date": "2026-09-15",
+   "cause": "riot",
+   "description": "Damaged during a public disturbance."
+  },
+  "damaged_parts": [
+   "Roof",
+   "Hood"
+  ],
+  "expected_outcome": "APPROVED",
+  "rationale": "Riot and strike are insured perils."
+ },
+ {
+  "id": "C07",
+  "policy": "active-package",
+  "incident": {
+   "date": "2026-09-15",
+   "cause": "malicious",
+   "description": "Keyed along the side panel deliberately."
+  },
+  "damaged_parts": [
+   "Quarter-panel"
+  ],
+  "expected_outcome": "APPROVED",
+  "rationale": "Malicious act is an insured peril."
+ },
+ {
+  "id": "C08",
+  "policy": "active-package",
+  "incident": {
+   "date": "2026-09-15",
+   "cause": "earthquake",
+   "description": "Masonry fell on the roof during a quake."
+  },
+  "damaged_parts": [
+   "Roof"
+  ],
+  "expected_outcome": "APPROVED",
+  "rationale": "Earthquake (fire and shock damage) is insured."
+ },
+ {
+  "id": "C09",
+  "policy": "active-package",
+  "incident": {
+   "date": "2026-09-15",
+   "cause": "landslide",
+   "description": "Caught in a hillside rockslide."
+  },
+  "damaged_parts": [
+   "Hood",
+   "Windshield"
+  ],
+  "expected_outcome": "APPROVED",
+  "rationale": "Landslide is an insured peril. The windshield is glass and the depreciation rate for parts made of glass is Nil, so nothing is reduced. CORRECTED: this was labelled PARTIALLY_APPROVED because I assumed any depreciation clause reduces payment; the Nil rate means it does not. Fibre glass is a body-panel material, not window glass."
+ },
+ {
+  "id": "C10",
+  "policy": "active-package",
+  "incident": {
+   "date": "2026-09-15",
+   "cause": "transit",
+   "description": "Damaged while being carried on a car transporter."
+  },
+  "damaged_parts": [
+   "Back-door"
+  ],
+  "expected_outcome": "APPROVED",
+  "rationale": "Whilst in transit by road is an insured peril."
+ },
+ {
+  "id": "C11",
+  "policy": "active-package",
+  "incident": {
+   "date": "2026-09-15",
+   "cause": "accident",
+   "intoxicated": true,
+   "description": "Driver found over the limit."
+  },
+  "damaged_parts": [
+   "Front-bumper"
+  ],
+  "expected_outcome": "REJECTED",
+  "rationale": "Driving under the influence is excluded for the whole claim."
+ },
+ {
+  "id": "C12",
+  "policy": "active-package",
+  "incident": {
+   "date": "2026-09-15",
+   "cause": "accident",
+   "no_valid_licence": true,
+   "description": "Driver held no valid licence."
+  },
+  "damaged_parts": [
+   "Front-bumper"
+  ],
+  "expected_outcome": "REJECTED",
+  "rationale": "Driver's clause excludes the claim."
+ },
+ {
+  "id": "C13",
+  "policy": "active-package",
+  "incident": {
+   "date": "2026-09-15",
+   "cause": "accident",
+   "outside_geographical_area": true,
+   "description": "Accident occurred outside the stated geographical area."
+  },
+  "damaged_parts": [
+   "Fender"
+  ],
+  "expected_outcome": "REJECTED",
+  "rationale": "General Exceptions exclude loss outside the geographical area."
+ },
+ {
+  "id": "C14",
+  "policy": "active-package",
+  "incident": {
+   "date": "2026-09-15",
+   "cause": "accident",
+   "commercial_use": true,
+   "description": "Private car was being used as a taxi."
+  },
+  "damaged_parts": [
+   "Front-bumper"
+  ],
+  "expected_outcome": "REJECTED",
+  "rationale": "Limitations as to Use breached."
+ },
+ {
+  "id": "C15",
+  "policy": "active-package",
+  "incident": {
+   "date": "2026-09-15",
+   "cause": "wear",
+   "description": "Paint has faded and flaked with age."
+  },
+  "damaged_parts": [
+   "Hood"
+  ],
+  "expected_outcome": "REJECTED",
+  "rationale": "Wear and tear is not an insured peril and is expressly excluded."
+ },
+ {
+  "id": "C16",
+  "policy": "active-package",
+  "incident": {
+   "date": "2026-09-15",
+   "cause": "mechanical",
+   "mechanical_breakdown": true,
+   "description": "Gearbox failed on its own."
+  },
+  "damaged_parts": [
+   "Hood"
+  ],
+  "expected_outcome": "REJECTED",
+  "rationale": "Mechanical breakdown is excluded."
+ },
+ {
+  "id": "C17",
+  "policy": "expired",
+  "incident": {
+   "date": "2026-09-15",
+   "cause": "accident",
+   "description": "Hit a wall."
+  },
+  "damaged_parts": [
+   "Front-bumper"
+  ],
+  "expected_outcome": "REJECTED",
+  "rationale": "Cover ended 31 Mar 2025, before the incident."
+ },
+ {
+  "id": "C18",
+  "policy": "not-yet-started",
+  "incident": {
+   "date": "2026-09-15",
+   "cause": "accident",
+   "description": "Hit a wall."
+  },
+  "damaged_parts": [
+   "Front-bumper"
+  ],
+  "expected_outcome": "REJECTED",
+  "rationale": "Cover does not begin until 1 Jun 2027."
+ },
+ {
+  "id": "C19",
+  "policy": "liability-only",
+  "incident": {
+   "date": "2026-09-15",
+   "cause": "accident",
+   "description": "Own vehicle damaged."
+  },
+  "damaged_parts": [
+   "Front-bumper"
+  ],
+  "expected_outcome": "REJECTED",
+  "rationale": "Liability Only cover excludes own damage."
+ },
+ {
+  "id": "C20",
+  "policy": "standalone-od",
+  "incident": {
+   "date": "2026-09-15",
+   "cause": "accident",
+   "description": "Scraped a pillar in a car park."
+  },
+  "damaged_parts": [
+   "Front-door"
+  ],
+  "expected_outcome": "APPROVED",
+  "rationale": "Standalone own damage covers the vehicle."
+ },
+ {
+  "id": "C21",
+  "policy": "active-package",
+  "incident": {
+   "date": "2026-04-01",
+   "cause": "accident",
+   "description": "Incident on the first day of cover."
+  },
+  "damaged_parts": [
+   "Front-door"
+  ],
+  "expected_outcome": "APPROVED",
+  "rationale": "First day of the period is covered."
+ },
+ {
+  "id": "C22",
+  "policy": "active-package",
+  "incident": {
+   "date": "2027-03-31",
+   "cause": "accident",
+   "description": "Incident on the last day of cover."
+  },
+  "damaged_parts": [
+   "Front-door"
+  ],
+  "expected_outcome": "APPROVED",
+  "rationale": "Last day of the period is covered."
+ },
+ {
+  "id": "C23",
+  "policy": "active-package",
+  "incident": {
+   "date": "2027-04-01",
+   "cause": "accident",
+   "description": "Incident the day after cover ended."
+  },
+  "damaged_parts": [
+   "Front-door"
+  ],
+  "expected_outcome": "REJECTED",
+  "rationale": "One day outside the period."
+ },
+ {
+  "id": "C24",
+  "policy": "high-voluntary-deductible",
+  "incident": {
+   "date": "2026-09-15",
+   "cause": "accident",
+   "description": "Minor knock in traffic."
+  },
+  "damaged_parts": [
+   "Front-bumper"
+  ],
+  "expected_outcome": "PARTIALLY_APPROVED",
+  "rationale": "Insured, with depreciation and a Rs 7,500 voluntary excess."
+ },
+ {
+  "id": "C25",
+  "policy": "zero-depreciation",
+  "incident": {
+   "date": "2026-09-15",
+   "cause": "accident",
+   "description": "Hit a kerb."
+  },
+  "damaged_parts": [
+   "Front-bumper"
+  ],
+  "expected_outcome": "APPROVED",
+  "rationale": "Insured peril; the bumper is plastic so the 50% depreciation clause would normally apply, but the schedule shows Parts Depreciation Protect, which waives it. CORRECTED: originally labelled PARTIALLY_APPROVED because the system ignored add-ons on the schedule and quietly under-paid the customer."
+ },
+ {
+  "id": "C26",
+  "policy": "old-vehicle-high-depreciation",
+  "incident": {
+   "date": "2026-09-15",
+   "cause": "accident",
+   "description": "Side swipe."
+  },
+  "damaged_parts": [
+   "Front-door",
+   "Mirror"
+  ],
+  "expected_outcome": "APPROVED",
+  "rationale": "Metal door and mirror attract no listed material depreciation."
+ },
+ {
+  "id": "C27",
+  "policy": "active-package",
+  "incident": {
+   "date": "2026-09-15",
+   "cause": "accident",
+   "description": "Damage reported but nothing identified in the photographs."
+  },
+  "damaged_parts": [],
+  "expected_outcome": "NEEDS_MANUAL_REVIEW",
+  "rationale": "No damaged parts means nothing to assess."
+ },
+ {
+  "id": "C28",
+  "policy": "active-package",
+  "incident": {
+   "date": null,
+   "cause": "accident",
+   "description": "Claim form left the date blank."
+  },
+  "damaged_parts": [
+   "Front-bumper"
+  ],
+  "expected_outcome": "NEEDS_MANUAL_REVIEW",
+  "rationale": "Without an incident date the period cannot be checked."
+ }
+]

@@ -1,0 +1,55 @@
+{
+ "Car damages 982.png": {
+  "damage_types": [
+   "Broken part",
+   "Dent",
+   "Flaking",
+   "Missing part",
+   "Paint chip",
+   "Scratch"
+  ],
+  "instances": 19
+ },
+ "Car damages 1351.png": {
+  "damage_types": [
+   "Broken part",
+   "Corrosion",
+   "Dent",
+   "Missing part",
+   "Paint chip",
+   "Scratch"
+  ],
+  "instances": 16
+ },
+ "Car damages 772.png": {
+  "damage_types": [
+   "Broken part",
+   "Dent",
+   "Flaking",
+   "Missing part",
+   "Paint chip",
+   "Scratch"
+  ],
+  "instances": 9
+ },
+ "Car damages 1258.png": {
+  "damage_types": [
+   "Broken part",
+   "Dent",
+   "Flaking",
+   "Paint chip",
+   "Scratch"
+  ],
+  "instances": 22
+ },
+ "Car damages 409.png": {
+  "damage_types": [
+   "Broken part",
+   "Cracked",
+   "Dent",
+   "Paint chip",
+   "Scratch"
+  ],
+  "instances": 18
+ }
+}

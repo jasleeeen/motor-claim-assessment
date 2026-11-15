@@ -1,0 +1,1765 @@
+[
+ {
+  "claim": {
+   "id": "C01",
+   "policy": "active-package",
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "description": "Collided with a road divider at low speed."
+   },
+   "damaged_parts": [
+    "Front-bumper"
+   ],
+   "expected_outcome": "PARTIALLY_APPROVED",
+   "rationale": "Insured peril; bumper is plastic so the depreciation rate applies."
+  },
+  "result": {
+   "outcome": "PARTIALLY_APPROVED",
+   "reasons": [
+    "payment reduced by SECTION_I.1~2, applied to Front-bumper: \u201cFor all rubber/nylon/plastic parts, tyres and tubes, batteries and air bags -\u201d",
+    "compulsory deductible of Rs 1,000 applies"
+   ],
+   "clauses_cited": {
+    "SECTION_I.6": "By accidental external means;",
+    "SECTION_I.1~2": "For all rubber/nylon/plastic parts, tyres and tubes, batteries and air bags - 50%"
+   },
+   "damaged_parts": [
+    "Front-bumper"
+   ],
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "description": "Collided with a road divider at low speed."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000001",
+    "cover_type": "PACKAGE",
+    "period_from": "2026-04-01",
+    "period_to": "2027-03-31"
+   },
+   "findings": {
+    "cause_insured": {
+     "clause_id": "SECTION_I.6",
+     "quote": "By accidental external means;",
+     "detail": "insured",
+     "scope": "whole_claim",
+     "parts": [],
+     "citation_valid": true,
+     "citation_problem": null
+    },
+    "exclusions": [],
+    "limits": [
+     {
+      "clause_id": "SECTION_I.1~2",
+      "quote": "For all rubber/nylon/plastic parts, tyres and tubes, batteries and air bags -",
+      "detail": "",
+      "scope": "some_parts",
+      "parts": [
+       "Front-bumper"
+      ],
+      "citation_valid": true,
+      "citation_problem": null
+     }
+    ]
+   },
+   "reader": "baseline",
+   "clauses_available": 37,
+   "stage": "limits"
+  }
+ },
+ {
+  "claim": {
+   "id": "C02",
+   "policy": "active-package",
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "description": "Rear-ended at a traffic light."
+   },
+   "damaged_parts": [
+    "Back-bumper",
+    "Trunk"
+   ],
+   "expected_outcome": "PARTIALLY_APPROVED",
+   "rationale": "Insured peril; bumper attracts depreciation, boot does not."
+  },
+  "result": {
+   "outcome": "PARTIALLY_APPROVED",
+   "reasons": [
+    "payment reduced by SECTION_I.1~2, applied to Back-bumper: \u201cFor all rubber/nylon/plastic parts, tyres and tubes, batteries and air bags -\u201d",
+    "compulsory deductible of Rs 1,000 applies"
+   ],
+   "clauses_cited": {
+    "SECTION_I.6": "By accidental external means;",
+    "SECTION_I.1~2": "For all rubber/nylon/plastic parts, tyres and tubes, batteries and air bags - 50%"
+   },
+   "damaged_parts": [
+    "Back-bumper",
+    "Trunk"
+   ],
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "description": "Rear-ended at a traffic light."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000001",
+    "cover_type": "PACKAGE",
+    "period_from": "2026-04-01",
+    "period_to": "2027-03-31"
+   },
+   "findings": {
+    "cause_insured": {
+     "clause_id": "SECTION_I.6",
+     "quote": "By accidental external means;",
+     "detail": "insured",
+     "scope": "whole_claim",
+     "parts": [],
+     "citation_valid": true,
+     "citation_problem": null
+    },
+    "exclusions": [],
+    "limits": [
+     {
+      "clause_id": "SECTION_I.1~2",
+      "quote": "For all rubber/nylon/plastic parts, tyres and tubes, batteries and air bags -",
+      "detail": "",
+      "scope": "some_parts",
+      "parts": [
+       "Back-bumper"
+      ],
+      "citation_valid": true,
+      "citation_problem": null
+     }
+    ]
+   },
+   "reader": "baseline",
+   "clauses_available": 37,
+   "stage": "limits"
+  }
+ },
+ {
+  "claim": {
+   "id": "C03",
+   "policy": "active-package",
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "fire",
+    "description": "Engine bay caught fire while parked."
+   },
+   "damaged_parts": [
+    "Hood",
+    "Grille"
+   ],
+   "expected_outcome": "PARTIALLY_APPROVED",
+   "rationale": "Fire is listed in Section I; grille is plastic."
+  },
+  "result": {
+   "outcome": "PARTIALLY_APPROVED",
+   "reasons": [
+    "payment reduced by SECTION_I.1~2, applied to Grille: \u201cFor all rubber/nylon/plastic parts, tyres and tubes, batteries and air bags -\u201d",
+    "compulsory deductible of Rs 1,000 applies"
+   ],
+   "clauses_cited": {
+    "SECTION_I.1": "By fire, explosion, self-ignition or lightning;",
+    "SECTION_I.1~2": "For all rubber/nylon/plastic parts, tyres and tubes, batteries and air bags - 50%"
+   },
+   "damaged_parts": [
+    "Hood",
+    "Grille"
+   ],
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "fire",
+    "description": "Engine bay caught fire while parked."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000001",
+    "cover_type": "PACKAGE",
+    "period_from": "2026-04-01",
+    "period_to": "2027-03-31"
+   },
+   "findings": {
+    "cause_insured": {
+     "clause_id": "SECTION_I.1",
+     "quote": "By fire, explosion, self-ignition or lightning;",
+     "detail": "insured",
+     "scope": "whole_claim",
+     "parts": [],
+     "citation_valid": true,
+     "citation_problem": null
+    },
+    "exclusions": [],
+    "limits": [
+     {
+      "clause_id": "SECTION_I.1~2",
+      "quote": "For all rubber/nylon/plastic parts, tyres and tubes, batteries and air bags -",
+      "detail": "",
+      "scope": "some_parts",
+      "parts": [
+       "Grille"
+      ],
+      "citation_valid": true,
+      "citation_problem": null
+     }
+    ]
+   },
+   "reader": "baseline",
+   "clauses_available": 37,
+   "stage": "limits"
+  }
+ },
+ {
+  "claim": {
+   "id": "C04",
+   "policy": "active-package",
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "theft",
+    "description": "Wing mirror stolen overnight."
+   },
+   "damaged_parts": [
+    "Mirror"
+   ],
+   "expected_outcome": "APPROVED",
+   "rationale": "Theft is an insured peril; no depreciation clause names a mirror."
+  },
+  "result": {
+   "outcome": "APPROVED",
+   "reasons": [
+    "the cause is insured and no exclusion applies to Mirror",
+    "compulsory deductible of Rs 1,000 applies"
+   ],
+   "clauses_cited": {
+    "SECTION_I.2": "By burglary, housebreaking or theft;"
+   },
+   "damaged_parts": [
+    "Mirror"
+   ],
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "theft",
+    "description": "Wing mirror stolen overnight."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000001",
+    "cover_type": "PACKAGE",
+    "period_from": "2026-04-01",
+    "period_to": "2027-03-31"
+   },
+   "findings": {
+    "cause_insured": {
+     "clause_id": "SECTION_I.2",
+     "quote": "By burglary, housebreaking or theft;",
+     "detail": "insured",
+     "scope": "whole_claim",
+     "parts": [],
+     "citation_valid": true,
+     "citation_problem": null
+    },
+    "exclusions": [],
+    "limits": []
+   },
+   "reader": "baseline",
+   "clauses_available": 37,
+   "stage": "approved"
+  }
+ },
+ {
+  "claim": {
+   "id": "C05",
+   "policy": "active-package",
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "flood",
+    "description": "Car submerged during monsoon flooding."
+   },
+   "damaged_parts": [
+    "Front-door",
+    "Back-door"
+   ],
+   "expected_outcome": "APPROVED",
+   "rationale": "Flood is an insured peril; doors are metal."
+  },
+  "result": {
+   "outcome": "APPROVED",
+   "reasons": [
+    "the cause is insured and no exclusion applies to Front-door, Back-door",
+    "compulsory deductible of Rs 1,000 applies"
+   ],
+   "clauses_cited": {
+    "SECTION_I.5": "By flood, typhoon, hurricane, storm, tempest, inundation, cyclone, hailstorm, frost;"
+   },
+   "damaged_parts": [
+    "Front-door",
+    "Back-door"
+   ],
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "flood",
+    "description": "Car submerged during monsoon flooding."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000001",
+    "cover_type": "PACKAGE",
+    "period_from": "2026-04-01",
+    "period_to": "2027-03-31"
+   },
+   "findings": {
+    "cause_insured": {
+     "clause_id": "SECTION_I.5",
+     "quote": "By flood, typhoon, hurricane, storm, tempest, inundation, cyclone, hailstorm, frost;",
+     "detail": "insured",
+     "scope": "whole_claim",
+     "parts": [],
+     "citation_valid": true,
+     "citation_problem": null
+    },
+    "exclusions": [],
+    "limits": []
+   },
+   "reader": "baseline",
+   "clauses_available": 37,
+   "stage": "approved"
+  }
+ },
+ {
+  "claim": {
+   "id": "C06",
+   "policy": "active-package",
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "riot",
+    "description": "Damaged during a public disturbance."
+   },
+   "damaged_parts": [
+    "Roof",
+    "Hood"
+   ],
+   "expected_outcome": "APPROVED",
+   "rationale": "Riot and strike are insured perils."
+  },
+  "result": {
+   "outcome": "APPROVED",
+   "reasons": [
+    "the cause is insured and no exclusion applies to Roof, Hood",
+    "compulsory deductible of Rs 1,000 applies"
+   ],
+   "clauses_cited": {
+    "SECTION_I.3": "By riot and strike;"
+   },
+   "damaged_parts": [
+    "Roof",
+    "Hood"
+   ],
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "riot",
+    "description": "Damaged during a public disturbance."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000001",
+    "cover_type": "PACKAGE",
+    "period_from": "2026-04-01",
+    "period_to": "2027-03-31"
+   },
+   "findings": {
+    "cause_insured": {
+     "clause_id": "SECTION_I.3",
+     "quote": "By riot and strike;",
+     "detail": "insured",
+     "scope": "whole_claim",
+     "parts": [],
+     "citation_valid": true,
+     "citation_problem": null
+    },
+    "exclusions": [],
+    "limits": []
+   },
+   "reader": "baseline",
+   "clauses_available": 37,
+   "stage": "approved"
+  }
+ },
+ {
+  "claim": {
+   "id": "C07",
+   "policy": "active-package",
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "malicious",
+    "description": "Keyed along the side panel deliberately."
+   },
+   "damaged_parts": [
+    "Quarter-panel"
+   ],
+   "expected_outcome": "APPROVED",
+   "rationale": "Malicious act is an insured peril."
+  },
+  "result": {
+   "outcome": "APPROVED",
+   "reasons": [
+    "the cause is insured and no exclusion applies to Quarter-panel",
+    "compulsory deductible of Rs 1,000 applies"
+   ],
+   "clauses_cited": {
+    "SECTION_I.7": "By malicious act;"
+   },
+   "damaged_parts": [
+    "Quarter-panel"
+   ],
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "malicious",
+    "description": "Keyed along the side panel deliberately."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000001",
+    "cover_type": "PACKAGE",
+    "period_from": "2026-04-01",
+    "period_to": "2027-03-31"
+   },
+   "findings": {
+    "cause_insured": {
+     "clause_id": "SECTION_I.7",
+     "quote": "By malicious act;",
+     "detail": "insured",
+     "scope": "whole_claim",
+     "parts": [],
+     "citation_valid": true,
+     "citation_problem": null
+    },
+    "exclusions": [],
+    "limits": []
+   },
+   "reader": "baseline",
+   "clauses_available": 37,
+   "stage": "approved"
+  }
+ },
+ {
+  "claim": {
+   "id": "C08",
+   "policy": "active-package",
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "earthquake",
+    "description": "Masonry fell on the roof during a quake."
+   },
+   "damaged_parts": [
+    "Roof"
+   ],
+   "expected_outcome": "APPROVED",
+   "rationale": "Earthquake (fire and shock damage) is insured."
+  },
+  "result": {
+   "outcome": "APPROVED",
+   "reasons": [
+    "the cause is insured and no exclusion applies to Roof",
+    "compulsory deductible of Rs 1,000 applies"
+   ],
+   "clauses_cited": {
+    "SECTION_I.4": "By earthquake (fire and shock damage);"
+   },
+   "damaged_parts": [
+    "Roof"
+   ],
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "earthquake",
+    "description": "Masonry fell on the roof during a quake."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000001",
+    "cover_type": "PACKAGE",
+    "period_from": "2026-04-01",
+    "period_to": "2027-03-31"
+   },
+   "findings": {
+    "cause_insured": {
+     "clause_id": "SECTION_I.4",
+     "quote": "By earthquake (fire and shock damage);",
+     "detail": "insured",
+     "scope": "whole_claim",
+     "parts": [],
+     "citation_valid": true,
+     "citation_problem": null
+    },
+    "exclusions": [],
+    "limits": []
+   },
+   "reader": "baseline",
+   "clauses_available": 37,
+   "stage": "approved"
+  }
+ },
+ {
+  "claim": {
+   "id": "C09",
+   "policy": "active-package",
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "landslide",
+    "description": "Caught in a hillside rockslide."
+   },
+   "damaged_parts": [
+    "Hood",
+    "Windshield"
+   ],
+   "expected_outcome": "APPROVED",
+   "rationale": "Landslide is an insured peril. The windshield is glass and the depreciation rate for parts made of glass is Nil, so nothing is reduced. CORRECTED: this was labelled PARTIALLY_APPROVED because I assumed any depreciation clause reduces payment; the Nil rate means it does not. Fibre glass is a body-panel material, not window glass."
+  },
+  "result": {
+   "outcome": "PARTIALLY_APPROVED",
+   "reasons": [
+    "payment reduced by SECTION_I.2~2, applied to Windshield: \u201cFor fibre glass components - 30%\u201d",
+    "compulsory deductible of Rs 1,000 applies"
+   ],
+   "clauses_cited": {
+    "SECTION_I.10": "By landslide, rockslide Subject to a deduction for depreciation at the rates mentioned below in respect of parts replaced:",
+    "SECTION_I.2~2": "For fibre glass components - 30%"
+   },
+   "damaged_parts": [
+    "Hood",
+    "Windshield"
+   ],
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "landslide",
+    "description": "Caught in a hillside rockslide."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000001",
+    "cover_type": "PACKAGE",
+    "period_from": "2026-04-01",
+    "period_to": "2027-03-31"
+   },
+   "findings": {
+    "cause_insured": {
+     "clause_id": "SECTION_I.10",
+     "quote": "By landslide, rockslide Subject to a deduction for depreciation at the rates",
+     "detail": "insured",
+     "scope": "whole_claim",
+     "parts": [],
+     "citation_valid": true,
+     "citation_problem": null
+    },
+    "exclusions": [],
+    "limits": [
+     {
+      "clause_id": "SECTION_I.2~2",
+      "quote": "For fibre glass components - 30%",
+      "detail": "",
+      "scope": "some_parts",
+      "parts": [
+       "Windshield"
+      ],
+      "citation_valid": true,
+      "citation_problem": null
+     }
+    ]
+   },
+   "reader": "baseline",
+   "clauses_available": 37,
+   "stage": "limits"
+  }
+ },
+ {
+  "claim": {
+   "id": "C10",
+   "policy": "active-package",
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "transit",
+    "description": "Damaged while being carried on a car transporter."
+   },
+   "damaged_parts": [
+    "Back-door"
+   ],
+   "expected_outcome": "APPROVED",
+   "rationale": "Whilst in transit by road is an insured peril."
+  },
+  "result": {
+   "outcome": "APPROVED",
+   "reasons": [
+    "the cause is insured and no exclusion applies to Back-door",
+    "compulsory deductible of Rs 1,000 applies"
+   ],
+   "clauses_cited": {
+    "SECTION_I.9": "Whilst in transit by road, rail, inland-waterway, lift, elevator or air;"
+   },
+   "damaged_parts": [
+    "Back-door"
+   ],
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "transit",
+    "description": "Damaged while being carried on a car transporter."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000001",
+    "cover_type": "PACKAGE",
+    "period_from": "2026-04-01",
+    "period_to": "2027-03-31"
+   },
+   "findings": {
+    "cause_insured": {
+     "clause_id": "SECTION_I.9",
+     "quote": "Whilst in transit by road, rail, inland-waterway, lift, elevator or air;",
+     "detail": "insured",
+     "scope": "whole_claim",
+     "parts": [],
+     "citation_valid": true,
+     "citation_problem": null
+    },
+    "exclusions": [],
+    "limits": []
+   },
+   "reader": "baseline",
+   "clauses_available": 37,
+   "stage": "approved"
+  }
+ },
+ {
+  "claim": {
+   "id": "C11",
+   "policy": "active-package",
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "intoxicated": true,
+    "description": "Driver found over the limit."
+   },
+   "damaged_parts": [
+    "Front-bumper"
+   ],
+   "expected_outcome": "REJECTED",
+   "rationale": "Driving under the influence is excluded for the whole claim."
+  },
+  "result": {
+   "outcome": "REJECTED",
+   "reasons": [
+    "excluded by SECTION_I.3~3: \u201cinsured is under the influence of intoxicating liquor or drugs. In the\u201d"
+   ],
+   "clauses_cited": {
+    "SECTION_I.6": "By accidental external means;",
+    "SECTION_I.3~3": "Any accidental loss or damage suffered whilst the insured or any person driving the vehicle with the knowledge and consent of the insured is under the influence of intoxicating liquor or drugs. In the event of the vehicle being disabled by reason of loss or damage covered under this Policy the Company will bear the reasonable cost of protection and removal to the nearest repairer and redelivery to the insured but not exceeding in all 1500/- in respect of any one accident. The insured may authorise the repair of the vehicle necessitated by damage for which the Company may be liable under this Policy provided that:"
+   },
+   "damaged_parts": [
+    "Front-bumper"
+   ],
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "intoxicated": true,
+    "description": "Driver found over the limit."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000001",
+    "cover_type": "PACKAGE",
+    "period_from": "2026-04-01",
+    "period_to": "2027-03-31"
+   },
+   "findings": {
+    "cause_insured": {
+     "clause_id": "SECTION_I.6",
+     "quote": "By accidental external means;",
+     "detail": "insured",
+     "scope": "whole_claim",
+     "parts": [],
+     "citation_valid": true,
+     "citation_problem": null
+    },
+    "exclusions": [
+     {
+      "clause_id": "SECTION_I.3~3",
+      "quote": "insured is under the influence of intoxicating liquor or drugs. In the",
+      "detail": "",
+      "scope": "whole_claim",
+      "parts": [],
+      "citation_valid": true,
+      "citation_problem": null
+     }
+    ],
+    "limits": [
+     {
+      "clause_id": "SECTION_I.1~2",
+      "quote": "For all rubber/nylon/plastic parts, tyres and tubes, batteries and air bags -",
+      "detail": "",
+      "scope": "some_parts",
+      "parts": [
+       "Front-bumper"
+      ],
+      "citation_valid": true,
+      "citation_problem": null
+     }
+    ]
+   },
+   "reader": "baseline",
+   "clauses_available": 37,
+   "stage": "exclusion"
+  }
+ },
+ {
+  "claim": {
+   "id": "C12",
+   "policy": "active-package",
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "no_valid_licence": true,
+    "description": "Driver held no valid licence."
+   },
+   "damaged_parts": [
+    "Front-bumper"
+   ],
+   "expected_outcome": "REJECTED",
+   "rationale": "Driver's clause excludes the claim."
+  },
+  "result": {
+   "outcome": "PARTIALLY_APPROVED",
+   "reasons": [
+    "payment reduced by SECTION_I.1~2, applied to Front-bumper: \u201cFor all rubber/nylon/plastic parts, tyres and tubes, batteries and air bags -\u201d",
+    "compulsory deductible of Rs 1,000 applies"
+   ],
+   "clauses_cited": {
+    "SECTION_I.6": "By accidental external means;",
+    "SECTION_I.1~2": "For all rubber/nylon/plastic parts, tyres and tubes, batteries and air bags - 50%"
+   },
+   "damaged_parts": [
+    "Front-bumper"
+   ],
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "no_valid_licence": true,
+    "description": "Driver held no valid licence."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000001",
+    "cover_type": "PACKAGE",
+    "period_from": "2026-04-01",
+    "period_to": "2027-03-31"
+   },
+   "findings": {
+    "cause_insured": {
+     "clause_id": "SECTION_I.6",
+     "quote": "By accidental external means;",
+     "detail": "insured",
+     "scope": "whole_claim",
+     "parts": [],
+     "citation_valid": true,
+     "citation_problem": null
+    },
+    "exclusions": [],
+    "limits": [
+     {
+      "clause_id": "SECTION_I.1~2",
+      "quote": "For all rubber/nylon/plastic parts, tyres and tubes, batteries and air bags -",
+      "detail": "",
+      "scope": "some_parts",
+      "parts": [
+       "Front-bumper"
+      ],
+      "citation_valid": true,
+      "citation_problem": null
+     }
+    ]
+   },
+   "reader": "baseline",
+   "clauses_available": 37,
+   "stage": "limits"
+  }
+ },
+ {
+  "claim": {
+   "id": "C13",
+   "policy": "active-package",
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "outside_geographical_area": true,
+    "description": "Accident occurred outside the stated geographical area."
+   },
+   "damaged_parts": [
+    "Fender"
+   ],
+   "expected_outcome": "REJECTED",
+   "rationale": "General Exceptions exclude loss outside the geographical area."
+  },
+  "result": {
+   "outcome": "REJECTED",
+   "reasons": [
+    "excluded by GENERAL_EXCEPTIONS.1: \u201coutside the geographical area stated in the schedule.\u201d"
+   ],
+   "clauses_cited": {
+    "SECTION_I.6": "By accidental external means;",
+    "GENERAL_EXCEPTIONS.1": "Any accidental loss damage and/or liability caused sustained or incurred outside the geographical area stated in the schedule."
+   },
+   "damaged_parts": [
+    "Fender"
+   ],
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "outside_geographical_area": true,
+    "description": "Accident occurred outside the stated geographical area."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000001",
+    "cover_type": "PACKAGE",
+    "period_from": "2026-04-01",
+    "period_to": "2027-03-31"
+   },
+   "findings": {
+    "cause_insured": {
+     "clause_id": "SECTION_I.6",
+     "quote": "By accidental external means;",
+     "detail": "insured",
+     "scope": "whole_claim",
+     "parts": [],
+     "citation_valid": true,
+     "citation_problem": null
+    },
+    "exclusions": [
+     {
+      "clause_id": "GENERAL_EXCEPTIONS.1",
+      "quote": "outside the geographical area stated in the schedule.",
+      "detail": "",
+      "scope": "whole_claim",
+      "parts": [],
+      "citation_valid": true,
+      "citation_problem": null
+     }
+    ],
+    "limits": [
+     {
+      "clause_id": "SECTION_I.1~2",
+      "quote": "For all rubber/nylon/plastic parts, tyres and tubes, batteries and air bags -",
+      "detail": "",
+      "scope": "some_parts",
+      "parts": [
+       "Fender"
+      ],
+      "citation_valid": true,
+      "citation_problem": null
+     }
+    ]
+   },
+   "reader": "baseline",
+   "clauses_available": 37,
+   "stage": "exclusion"
+  }
+ },
+ {
+  "claim": {
+   "id": "C14",
+   "policy": "active-package",
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "commercial_use": true,
+    "description": "Private car was being used as a taxi."
+   },
+   "damaged_parts": [
+    "Front-bumper"
+   ],
+   "expected_outcome": "REJECTED",
+   "rationale": "Limitations as to Use breached."
+  },
+  "result": {
+   "outcome": "REJECTED",
+   "reasons": [
+    "excluded by GENERAL_EXCEPTIONS.3.a: \u201cthe \"Limitations as to Use\"; or\u201d"
+   ],
+   "clauses_cited": {
+    "SECTION_I.6": "By accidental external means;",
+    "GENERAL_EXCEPTIONS.3.a": "Being used otherwise than in accordance with the \"Limitations as to Use\"; or"
+   },
+   "damaged_parts": [
+    "Front-bumper"
+   ],
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "commercial_use": true,
+    "description": "Private car was being used as a taxi."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000001",
+    "cover_type": "PACKAGE",
+    "period_from": "2026-04-01",
+    "period_to": "2027-03-31"
+   },
+   "findings": {
+    "cause_insured": {
+     "clause_id": "SECTION_I.6",
+     "quote": "By accidental external means;",
+     "detail": "insured",
+     "scope": "whole_claim",
+     "parts": [],
+     "citation_valid": true,
+     "citation_problem": null
+    },
+    "exclusions": [
+     {
+      "clause_id": "GENERAL_EXCEPTIONS.3.a",
+      "quote": "the \"Limitations as to Use\"; or",
+      "detail": "",
+      "scope": "whole_claim",
+      "parts": [],
+      "citation_valid": true,
+      "citation_problem": null
+     }
+    ],
+    "limits": [
+     {
+      "clause_id": "SECTION_I.1~2",
+      "quote": "For all rubber/nylon/plastic parts, tyres and tubes, batteries and air bags -",
+      "detail": "",
+      "scope": "some_parts",
+      "parts": [
+       "Front-bumper"
+      ],
+      "citation_valid": true,
+      "citation_problem": null
+     }
+    ]
+   },
+   "reader": "baseline",
+   "clauses_available": 37,
+   "stage": "exclusion"
+  }
+ },
+ {
+  "claim": {
+   "id": "C15",
+   "policy": "active-package",
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "wear",
+    "description": "Paint has faded and flaked with age."
+   },
+   "damaged_parts": [
+    "Hood"
+   ],
+   "expected_outcome": "REJECTED",
+   "rationale": "Wear and tear is not an insured peril and is expressly excluded."
+  },
+  "result": {
+   "outcome": "REJECTED",
+   "reasons": [
+    "the cause of damage is not an insured peril: Company will indemnify the insured against loss or damage to the vehicle"
+   ],
+   "clauses_cited": {
+    "SECTION_I.0": "Loss Of Or Damage To The Vehicle Insured The Company will indemnify the insured against loss or damage to the vehicle insured hereunder and/or its accessories whilst thereon"
+   },
+   "damaged_parts": [
+    "Hood"
+   ],
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "wear",
+    "description": "Paint has faded and flaked with age."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000001",
+    "cover_type": "PACKAGE",
+    "period_from": "2026-04-01",
+    "period_to": "2027-03-31"
+   },
+   "findings": {
+    "cause_insured": {
+     "clause_id": "SECTION_I.0",
+     "quote": "Company will indemnify the insured against loss or damage to the vehicle",
+     "detail": "not_insured",
+     "scope": "whole_claim",
+     "parts": [],
+     "citation_valid": true,
+     "citation_problem": null
+    },
+    "exclusions": [],
+    "limits": []
+   },
+   "reader": "baseline",
+   "clauses_available": 37,
+   "stage": "cause"
+  }
+ },
+ {
+  "claim": {
+   "id": "C16",
+   "policy": "active-package",
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "mechanical",
+    "mechanical_breakdown": true,
+    "description": "Gearbox failed on its own."
+   },
+   "damaged_parts": [
+    "Hood"
+   ],
+   "expected_outcome": "REJECTED",
+   "rationale": "Mechanical breakdown is excluded."
+  },
+  "result": {
+   "outcome": "REJECTED",
+   "reasons": [
+    "the cause of damage is not an insured peril: Company will indemnify the insured against loss or damage to the vehicle"
+   ],
+   "clauses_cited": {
+    "SECTION_I.0": "Loss Of Or Damage To The Vehicle Insured The Company will indemnify the insured against loss or damage to the vehicle insured hereunder and/or its accessories whilst thereon"
+   },
+   "damaged_parts": [
+    "Hood"
+   ],
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "mechanical",
+    "mechanical_breakdown": true,
+    "description": "Gearbox failed on its own."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000001",
+    "cover_type": "PACKAGE",
+    "period_from": "2026-04-01",
+    "period_to": "2027-03-31"
+   },
+   "findings": {
+    "cause_insured": {
+     "clause_id": "SECTION_I.0",
+     "quote": "Company will indemnify the insured against loss or damage to the vehicle",
+     "detail": "not_insured",
+     "scope": "whole_claim",
+     "parts": [],
+     "citation_valid": true,
+     "citation_problem": null
+    },
+    "exclusions": [
+     {
+      "clause_id": "SECTION_I.1~3",
+      "quote": "and tear, mechanical or electrical breakdown, failures or breakages;",
+      "detail": "",
+      "scope": "some_parts",
+      "parts": [
+       "Hood"
+      ],
+      "citation_valid": true,
+      "citation_problem": null
+     }
+    ],
+    "limits": []
+   },
+   "reader": "baseline",
+   "clauses_available": 37,
+   "stage": "cause"
+  }
+ },
+ {
+  "claim": {
+   "id": "C17",
+   "policy": "expired",
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "description": "Hit a wall."
+   },
+   "damaged_parts": [
+    "Front-bumper"
+   ],
+   "expected_outcome": "REJECTED",
+   "rationale": "Cover ended 31 Mar 2025, before the incident."
+  },
+  "result": {
+   "outcome": "REJECTED",
+   "reasons": [
+    "the incident on 15 Sep 2026 is after cover ended on 31 Mar 2025"
+   ],
+   "clauses_cited": {},
+   "damaged_parts": [
+    "Front-bumper"
+   ],
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "description": "Hit a wall."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000002",
+    "cover_type": "PACKAGE",
+    "period_from": "2024-04-01",
+    "period_to": "2025-03-31"
+   },
+   "findings": {
+    "cause_insured": {
+     "clause_id": "SECTION_I.f",
+     "quote": "by accidental external means",
+     "detail": "insured",
+     "scope": "whole_claim",
+     "parts": [],
+     "citation_valid": true,
+     "citation_problem": null
+    },
+    "exclusions": [],
+    "limits": [
+     {
+      "clause_id": "SECTION_I.j.1",
+      "quote": "rubber nylon plastic parts tyre and Battery - 50%",
+      "detail": "",
+      "scope": "some_parts",
+      "parts": [
+       "Front-bumper"
+      ],
+      "citation_valid": true,
+      "citation_problem": null
+     }
+    ]
+   },
+   "reader": "baseline",
+   "clauses_available": 41,
+   "stage": "claim_level"
+  }
+ },
+ {
+  "claim": {
+   "id": "C18",
+   "policy": "not-yet-started",
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "description": "Hit a wall."
+   },
+   "damaged_parts": [
+    "Front-bumper"
+   ],
+   "expected_outcome": "REJECTED",
+   "rationale": "Cover does not begin until 1 Jun 2027."
+  },
+  "result": {
+   "outcome": "REJECTED",
+   "reasons": [
+    "the incident on 15 Sep 2026 is before cover began on 01 Jun 2027"
+   ],
+   "clauses_cited": {},
+   "damaged_parts": [
+    "Front-bumper"
+   ],
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "description": "Hit a wall."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000003",
+    "cover_type": "PACKAGE",
+    "period_from": "2027-06-01",
+    "period_to": "2028-05-31"
+   },
+   "findings": {
+    "cause_insured": {
+     "clause_id": "SECTION_I.6",
+     "quote": "By accidental external means;",
+     "detail": "insured",
+     "scope": "whole_claim",
+     "parts": [],
+     "citation_valid": true,
+     "citation_problem": null
+    },
+    "exclusions": [],
+    "limits": [
+     {
+      "clause_id": "SECTION_I.1~2",
+      "quote": "For all rubber/nylon/plastic parts, tyres and tubes, batteries and air bags -",
+      "detail": "",
+      "scope": "some_parts",
+      "parts": [
+       "Front-bumper"
+      ],
+      "citation_valid": true,
+      "citation_problem": null
+     }
+    ]
+   },
+   "reader": "baseline",
+   "clauses_available": 37,
+   "stage": "claim_level"
+  }
+ },
+ {
+  "claim": {
+   "id": "C19",
+   "policy": "liability-only",
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "description": "Own vehicle damaged."
+   },
+   "damaged_parts": [
+    "Front-bumper"
+   ],
+   "expected_outcome": "REJECTED",
+   "rationale": "Liability Only cover excludes own damage."
+  },
+  "result": {
+   "outcome": "REJECTED",
+   "reasons": [
+    "the policy is Liability Only, which does not cover damage to the insured's own vehicle"
+   ],
+   "clauses_cited": {},
+   "damaged_parts": [
+    "Front-bumper"
+   ],
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "description": "Own vehicle damaged."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000004",
+    "cover_type": "LIABILITY_ONLY",
+    "period_from": "2026-04-01",
+    "period_to": "2027-03-31"
+   },
+   "findings": {
+    "cause_insured": {
+     "clause_id": "SECTION_I.1.vi",
+     "quote": "by accidental external means;",
+     "detail": "insured",
+     "scope": "whole_claim",
+     "parts": [],
+     "citation_valid": true,
+     "citation_problem": null
+    },
+    "exclusions": [],
+    "limits": [
+     {
+      "clause_id": "SECTION_I.1~2",
+      "quote": "Rubber/ Nylon/ Plastic Parts, tyres, tubes and batteries 50%",
+      "detail": "",
+      "scope": "some_parts",
+      "parts": [
+       "Front-bumper"
+      ],
+      "citation_valid": true,
+      "citation_problem": null
+     }
+    ]
+   },
+   "reader": "baseline",
+   "clauses_available": 54,
+   "stage": "claim_level"
+  }
+ },
+ {
+  "claim": {
+   "id": "C20",
+   "policy": "standalone-od",
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "description": "Scraped a pillar in a car park."
+   },
+   "damaged_parts": [
+    "Front-door"
+   ],
+   "expected_outcome": "APPROVED",
+   "rationale": "Standalone own damage covers the vehicle."
+  },
+  "result": {
+   "outcome": "APPROVED",
+   "reasons": [
+    "the cause is insured and no exclusion applies to Front-door",
+    "compulsory deductible of Rs 1,000 applies"
+   ],
+   "clauses_cited": {
+    "SECTION_I.1.VI": "By accidental external means;"
+   },
+   "damaged_parts": [
+    "Front-door"
+   ],
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "description": "Scraped a pillar in a car park."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000005",
+    "cover_type": "STANDALONE_OD",
+    "period_from": "2026-04-01",
+    "period_to": "2027-03-31"
+   },
+   "findings": {
+    "cause_insured": {
+     "clause_id": "SECTION_I.1.VI",
+     "quote": "By accidental external means;",
+     "detail": "insured",
+     "scope": "whole_claim",
+     "parts": [],
+     "citation_valid": true,
+     "citation_problem": null
+    },
+    "exclusions": [],
+    "limits": []
+   },
+   "reader": "baseline",
+   "clauses_available": 38,
+   "stage": "approved"
+  }
+ },
+ {
+  "claim": {
+   "id": "C21",
+   "policy": "active-package",
+   "incident": {
+    "date": "2026-04-01",
+    "cause": "accident",
+    "description": "Incident on the first day of cover."
+   },
+   "damaged_parts": [
+    "Front-door"
+   ],
+   "expected_outcome": "APPROVED",
+   "rationale": "First day of the period is covered."
+  },
+  "result": {
+   "outcome": "APPROVED",
+   "reasons": [
+    "the cause is insured and no exclusion applies to Front-door",
+    "compulsory deductible of Rs 1,000 applies"
+   ],
+   "clauses_cited": {
+    "SECTION_I.6": "By accidental external means;"
+   },
+   "damaged_parts": [
+    "Front-door"
+   ],
+   "incident": {
+    "date": "2026-04-01",
+    "cause": "accident",
+    "description": "Incident on the first day of cover."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000001",
+    "cover_type": "PACKAGE",
+    "period_from": "2026-04-01",
+    "period_to": "2027-03-31"
+   },
+   "findings": {
+    "cause_insured": {
+     "clause_id": "SECTION_I.6",
+     "quote": "By accidental external means;",
+     "detail": "insured",
+     "scope": "whole_claim",
+     "parts": [],
+     "citation_valid": true,
+     "citation_problem": null
+    },
+    "exclusions": [],
+    "limits": []
+   },
+   "reader": "baseline",
+   "clauses_available": 37,
+   "stage": "approved"
+  }
+ },
+ {
+  "claim": {
+   "id": "C22",
+   "policy": "active-package",
+   "incident": {
+    "date": "2027-03-31",
+    "cause": "accident",
+    "description": "Incident on the last day of cover."
+   },
+   "damaged_parts": [
+    "Front-door"
+   ],
+   "expected_outcome": "APPROVED",
+   "rationale": "Last day of the period is covered."
+  },
+  "result": {
+   "outcome": "APPROVED",
+   "reasons": [
+    "the cause is insured and no exclusion applies to Front-door",
+    "compulsory deductible of Rs 1,000 applies"
+   ],
+   "clauses_cited": {
+    "SECTION_I.6": "By accidental external means;"
+   },
+   "damaged_parts": [
+    "Front-door"
+   ],
+   "incident": {
+    "date": "2027-03-31",
+    "cause": "accident",
+    "description": "Incident on the last day of cover."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000001",
+    "cover_type": "PACKAGE",
+    "period_from": "2026-04-01",
+    "period_to": "2027-03-31"
+   },
+   "findings": {
+    "cause_insured": {
+     "clause_id": "SECTION_I.6",
+     "quote": "By accidental external means;",
+     "detail": "insured",
+     "scope": "whole_claim",
+     "parts": [],
+     "citation_valid": true,
+     "citation_problem": null
+    },
+    "exclusions": [],
+    "limits": []
+   },
+   "reader": "baseline",
+   "clauses_available": 37,
+   "stage": "approved"
+  }
+ },
+ {
+  "claim": {
+   "id": "C23",
+   "policy": "active-package",
+   "incident": {
+    "date": "2027-04-01",
+    "cause": "accident",
+    "description": "Incident the day after cover ended."
+   },
+   "damaged_parts": [
+    "Front-door"
+   ],
+   "expected_outcome": "REJECTED",
+   "rationale": "One day outside the period."
+  },
+  "result": {
+   "outcome": "REJECTED",
+   "reasons": [
+    "the incident on 01 Apr 2027 is after cover ended on 31 Mar 2027"
+   ],
+   "clauses_cited": {},
+   "damaged_parts": [
+    "Front-door"
+   ],
+   "incident": {
+    "date": "2027-04-01",
+    "cause": "accident",
+    "description": "Incident the day after cover ended."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000001",
+    "cover_type": "PACKAGE",
+    "period_from": "2026-04-01",
+    "period_to": "2027-03-31"
+   },
+   "findings": {
+    "cause_insured": {
+     "clause_id": "SECTION_I.6",
+     "quote": "By accidental external means;",
+     "detail": "insured",
+     "scope": "whole_claim",
+     "parts": [],
+     "citation_valid": true,
+     "citation_problem": null
+    },
+    "exclusions": [],
+    "limits": []
+   },
+   "reader": "baseline",
+   "clauses_available": 37,
+   "stage": "claim_level"
+  }
+ },
+ {
+  "claim": {
+   "id": "C24",
+   "policy": "high-voluntary-deductible",
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "description": "Minor knock in traffic."
+   },
+   "damaged_parts": [
+    "Front-bumper"
+   ],
+   "expected_outcome": "PARTIALLY_APPROVED",
+   "rationale": "Insured, with depreciation and a Rs 7,500 voluntary excess."
+  },
+  "result": {
+   "outcome": "PARTIALLY_APPROVED",
+   "reasons": [
+    "payment reduced by SECTION_I.j.1, applied to Front-bumper: \u201crubber nylon plastic parts tyre and Battery - 50%\u201d",
+    "compulsory deductible of Rs 1,000 applies"
+   ],
+   "clauses_cited": {
+    "SECTION_I.f": "by accidental external means",
+    "SECTION_I.j.1": "For all rubber nylon plastic parts tyre and Battery - 50%"
+   },
+   "damaged_parts": [
+    "Front-bumper"
+   ],
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "description": "Minor knock in traffic."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000006",
+    "cover_type": "PACKAGE",
+    "period_from": "2026-04-01",
+    "period_to": "2027-03-31"
+   },
+   "findings": {
+    "cause_insured": {
+     "clause_id": "SECTION_I.f",
+     "quote": "by accidental external means",
+     "detail": "insured",
+     "scope": "whole_claim",
+     "parts": [],
+     "citation_valid": true,
+     "citation_problem": null
+    },
+    "exclusions": [],
+    "limits": [
+     {
+      "clause_id": "SECTION_I.j.1",
+      "quote": "rubber nylon plastic parts tyre and Battery - 50%",
+      "detail": "",
+      "scope": "some_parts",
+      "parts": [
+       "Front-bumper"
+      ],
+      "citation_valid": true,
+      "citation_problem": null
+     }
+    ]
+   },
+   "reader": "baseline",
+   "clauses_available": 41,
+   "stage": "limits"
+  }
+ },
+ {
+  "claim": {
+   "id": "C25",
+   "policy": "zero-depreciation",
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "description": "Hit a kerb."
+   },
+   "damaged_parts": [
+    "Front-bumper"
+   ],
+   "expected_outcome": "APPROVED",
+   "rationale": "Insured peril; the bumper is plastic so the 50% depreciation clause would normally apply, but the schedule shows Parts Depreciation Protect, which waives it. CORRECTED: originally labelled PARTIALLY_APPROVED because the system ignored add-ons on the schedule and quietly under-paid the customer."
+  },
+  "result": {
+   "outcome": "APPROVED",
+   "reasons": [
+    "depreciation is not deducted: the schedule shows parts depreciation protect",
+    "the cause is insured and no exclusion applies to Front-bumper",
+    "compulsory deductible of Rs 1,000 applies"
+   ],
+   "clauses_cited": {
+    "SECTION_I.1.VI": "By accidental external means;"
+   },
+   "damaged_parts": [
+    "Front-bumper"
+   ],
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "description": "Hit a kerb."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000007",
+    "cover_type": "PACKAGE",
+    "period_from": "2026-04-01",
+    "period_to": "2027-03-31"
+   },
+   "findings": {
+    "cause_insured": {
+     "clause_id": "SECTION_I.1.VI",
+     "quote": "By accidental external means;",
+     "detail": "insured",
+     "scope": "whole_claim",
+     "parts": [],
+     "citation_valid": true,
+     "citation_problem": null
+    },
+    "exclusions": [],
+    "limits": [
+     {
+      "clause_id": "SECTION_I.1.I~2",
+      "quote": "For all rubber/nylon/plastic parts, tyres and tubes, batteries and air bags-50%",
+      "detail": "",
+      "scope": "some_parts",
+      "parts": [
+       "Front-bumper"
+      ],
+      "citation_valid": true,
+      "citation_problem": null
+     }
+    ]
+   },
+   "reader": "baseline",
+   "clauses_available": 38,
+   "stage": "approved"
+  }
+ },
+ {
+  "claim": {
+   "id": "C26",
+   "policy": "old-vehicle-high-depreciation",
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "description": "Side swipe."
+   },
+   "damaged_parts": [
+    "Front-door",
+    "Mirror"
+   ],
+   "expected_outcome": "APPROVED",
+   "rationale": "Metal door and mirror attract no listed material depreciation."
+  },
+  "result": {
+   "outcome": "APPROVED",
+   "reasons": [
+    "the cause is insured and no exclusion applies to Front-door, Mirror",
+    "compulsory deductible of Rs 1,000 applies"
+   ],
+   "clauses_cited": {
+    "SECTION_I.1.vi": "by accidental external means;"
+   },
+   "damaged_parts": [
+    "Front-door",
+    "Mirror"
+   ],
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "description": "Side swipe."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000008",
+    "cover_type": "PACKAGE",
+    "period_from": "2026-04-01",
+    "period_to": "2027-03-31"
+   },
+   "findings": {
+    "cause_insured": {
+     "clause_id": "SECTION_I.1.vi",
+     "quote": "by accidental external means;",
+     "detail": "insured",
+     "scope": "whole_claim",
+     "parts": [],
+     "citation_valid": true,
+     "citation_problem": null
+    },
+    "exclusions": [],
+    "limits": []
+   },
+   "reader": "baseline",
+   "clauses_available": 54,
+   "stage": "approved"
+  }
+ },
+ {
+  "claim": {
+   "id": "C27",
+   "policy": "active-package",
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "description": "Damage reported but nothing identified in the photographs."
+   },
+   "damaged_parts": [],
+   "expected_outcome": "NEEDS_MANUAL_REVIEW",
+   "rationale": "No damaged parts means nothing to assess."
+  },
+  "result": {
+   "outcome": "NEEDS_MANUAL_REVIEW",
+   "reasons": [
+    "no damaged parts were identified from the photographs"
+   ],
+   "clauses_cited": {},
+   "damaged_parts": [],
+   "incident": {
+    "date": "2026-09-15",
+    "cause": "accident",
+    "description": "Damage reported but nothing identified in the photographs."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000001",
+    "cover_type": "PACKAGE",
+    "period_from": "2026-04-01",
+    "period_to": "2027-03-31"
+   },
+   "findings": {
+    "cause_insured": {
+     "clause_id": "SECTION_I.6",
+     "quote": "By accidental external means;",
+     "detail": "insured",
+     "scope": "whole_claim",
+     "parts": [],
+     "citation_valid": true,
+     "citation_problem": null
+    },
+    "exclusions": [],
+    "limits": []
+   },
+   "reader": "baseline",
+   "clauses_available": 37,
+   "stage": "damage"
+  }
+ },
+ {
+  "claim": {
+   "id": "C28",
+   "policy": "active-package",
+   "incident": {
+    "date": null,
+    "cause": "accident",
+    "description": "Claim form left the date blank."
+   },
+   "damaged_parts": [
+    "Front-bumper"
+   ],
+   "expected_outcome": "NEEDS_MANUAL_REVIEW",
+   "rationale": "Without an incident date the period cannot be checked."
+  },
+  "result": {
+   "outcome": "NEEDS_MANUAL_REVIEW",
+   "reasons": [
+    "the claim does not state when the incident happened"
+   ],
+   "clauses_cited": {},
+   "damaged_parts": [
+    "Front-bumper"
+   ],
+   "incident": {
+    "date": null,
+    "cause": "accident",
+    "description": "Claim form left the date blank."
+   },
+   "policy": {
+    "policy_number": "OG-26-0000-1801-00000001",
+    "cover_type": "PACKAGE",
+    "period_from": "2026-04-01",
+    "period_to": "2027-03-31"
+   },
+   "findings": {
+    "cause_insured": null,
+    "exclusions": [],
+    "limits": []
+   },
+   "reader": "baseline",
+   "clauses_available": 37,
+   "stage": null
+  }
+ }
+]

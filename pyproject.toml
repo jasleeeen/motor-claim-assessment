@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "claimsys"
+version = "0.1.0"
+description = "AI motor insurance claim assessment: damage photographs plus a policy PDF to a justified decision"
+readme = "README.md"
+# A dependency floor, not a code one: pymupdf and streamlit both require 3.11,
+# while this project's own code carries `from __future__ import annotations`
+# throughout and uses no syntax past 3.9.
+requires-python = ">=3.11"
+
+# The policy side and the app. No GPU, no compiled extensions beyond pymupdf.
+dependencies = [
+    "pymupdf>=1.24",
+    "reportlab>=4.0",
+    "pypdf>=4.0",
+    "httpx>=0.27",
+    "streamlit>=1.35",
+]
+
+[project.optional-dependencies]
+# Reading photographs, and training the detectors.
+vision = [
+    "torch>=2.3",
+    "torchvision>=0.18",
+    "pillow>=10.0",
+    "torchmetrics>=1.4",
+    "pycocotools>=2.0.7",
+]
+# Training-run observability. Used by the Colab notebook, not by this package.
+training = ["mlflow>=2.14"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+claim-build-samples = "scripts.build_sample_policies:build"
+claim-evaluate = "scripts.evaluate_claims:_cli"
+claim-groq-eval = "scripts.run_groq_eval:_cli"
+
+[tool.setuptools]
+# A flat layout: `src` is a real package named src, not a src/ container, so
+# auto-discovery must be told rather than guessing.
+packages = [
+    "src",
+    "src.claim",
+    "src.policy",
+    "src.vision",
+    "scripts",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# Put the project root on sys.path so `from src...` works when a test or a
+# script is run as a FILE rather than as a module. Without this, running
+# scripts/build_sample_policies.py directly puts scripts/ on sys.path and
+# `import src` fails.
+pythonpath = ["."]

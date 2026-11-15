@@ -1,0 +1,1215 @@
+{
+ "images": {
+  "Car damages 1258.png": {
+   "size": [
+    776,
+    568
+   ],
+   "truth_types": [
+    "Broken part",
+    "Dent",
+    "Other damage",
+    "Paint chip",
+    "Scratch"
+   ],
+   "truth_instances": 22,
+   "damaged_parts": {
+    "Back-bumper": [
+     "Scratch"
+    ],
+    "Rocker-panel": [
+     "Scratch"
+    ]
+   },
+   "unlinked_damage": [
+    "Broken part",
+    "Dent"
+   ],
+   "needs_review": true,
+   "review_reasons": [
+    "damage was found that does not sit on any identified part: Broken part, Dent"
+   ],
+   "detections": {
+    "damage": [
+     {
+      "label": "Broken part",
+      "score": 0.982,
+      "box": [
+       32,
+       169,
+       67,
+       299
+      ]
+     },
+     {
+      "label": "Scratch",
+      "score": 0.919,
+      "box": [
+       298,
+       379,
+       329,
+       394
+      ]
+     },
+     {
+      "label": "Scratch",
+      "score": 0.78,
+      "box": [
+       521,
+       492,
+       531,
+       499
+      ]
+     },
+     {
+      "label": "Scratch",
+      "score": 0.746,
+      "box": [
+       306,
+       409,
+       329,
+       428
+      ]
+     },
+     {
+      "label": "Broken part",
+      "score": 0.732,
+      "box": [
+       37,
+       230,
+       73,
+       304
+      ]
+     },
+     {
+      "label": "Scratch",
+      "score": 0.619,
+      "box": [
+       511,
+       451,
+       527,
+       463
+      ]
+     },
+     {
+      "label": "Dent",
+      "score": 0.616,
+      "box": [
+       40,
+       222,
+       63,
+       243
+      ]
+     }
+    ],
+    "parts": [
+     {
+      "label": "Front-door",
+      "score": 0.998,
+      "box": [
+       70,
+       63,
+       275,
+       390
+      ]
+     },
+     {
+      "label": "Rocker-panel",
+      "score": 0.99,
+      "box": [
+       95,
+       309,
+       348,
+       461
+      ]
+     },
+     {
+      "label": "Back-wheel",
+      "score": 0.983,
+      "box": [
+       335,
+       392,
+       503,
+       563
+      ]
+     },
+     {
+      "label": "Back-bumper",
+      "score": 0.979,
+      "box": [
+       362,
+       231,
+       771,
+       538
+      ]
+     },
+     {
+      "label": "Front-window",
+      "score": 0.956,
+      "box": [
+       104,
+       66,
+       264,
+       189
+      ]
+     },
+     {
+      "label": "Trunk",
+      "score": 0.917,
+      "box": [
+       475,
+       59,
+       756,
+       359
+      ]
+     },
+     {
+      "label": "Back-window",
+      "score": 0.91,
+      "box": [
+       262,
+       72,
+       414,
+       199
+      ]
+     },
+     {
+      "label": "License-plate",
+      "score": 0.899,
+      "box": [
+       625,
+       367,
+       717,
+       443
+      ]
+     },
+     {
+      "label": "Tail-light",
+      "score": 0.893,
+      "box": [
+       429,
+       100,
+       535,
+       290
+      ]
+     },
+     {
+      "label": "Back-door",
+      "score": 0.883,
+      "box": [
+       236,
+       56,
+       447,
+       440
+      ]
+     },
+     {
+      "label": "Back-windshield",
+      "score": 0.76,
+      "box": [
+       488,
+       80,
+       735,
+       319
+      ]
+     },
+     {
+      "label": "Roof",
+      "score": 0.675,
+      "box": [
+       219,
+       29,
+       621,
+       79
+      ]
+     },
+     {
+      "label": "Quarter-panel",
+      "score": 0.605,
+      "box": [
+       268,
+       172,
+       470,
+       437
+      ]
+     }
+    ]
+   }
+  },
+  "Car damages 1351.png": {
+   "size": [
+    798,
+    600
+   ],
+   "truth_types": [
+    "Broken part",
+    "Dent",
+    "Missing part",
+    "Other damage",
+    "Paint chip",
+    "Scratch"
+   ],
+   "truth_instances": 16,
+   "damaged_parts": {
+    "Back-bumper": [
+     "Scratch"
+    ],
+    "Trunk": [
+     "Missing part"
+    ]
+   },
+   "unlinked_damage": [],
+   "needs_review": false,
+   "review_reasons": [],
+   "detections": {
+    "damage": [
+     {
+      "label": "Missing part",
+      "score": 0.992,
+      "box": [
+       653,
+       293,
+       724,
+       350
+      ]
+     },
+     {
+      "label": "Scratch",
+      "score": 0.66,
+      "box": [
+       566,
+       455,
+       579,
+       467
+      ]
+     }
+    ],
+    "parts": [
+     {
+      "label": "Front-door",
+      "score": 0.999,
+      "box": [
+       133,
+       153,
+       261,
+       359
+      ]
+     },
+     {
+      "label": "Back-bumper",
+      "score": 0.997,
+      "box": [
+       360,
+       318,
+       764,
+       500
+      ]
+     },
+     {
+      "label": "Back-door",
+      "score": 0.993,
+      "box": [
+       208,
+       151,
+       351,
+       400
+      ]
+     },
+     {
+      "label": "Front-window",
+      "score": 0.99,
+      "box": [
+       167,
+       159,
+       251,
+       238
+      ]
+     },
+     {
+      "label": "Rocker-panel",
+      "score": 0.981,
+      "box": [
+       136,
+       320,
+       295,
+       415
+      ]
+     },
+     {
+      "label": "Tail-light",
+      "score": 0.98,
+      "box": [
+       515,
+       283,
+       624,
+       392
+      ]
+     },
+     {
+      "label": "Back-wheel",
+      "score": 0.978,
+      "box": [
+       304,
+       351,
+       417,
+       496
+      ]
+     },
+     {
+      "label": "Front-wheel",
+      "score": 0.975,
+      "box": [
+       93,
+       263,
+       140,
+       342
+      ]
+     },
+     {
+      "label": "Quarter-panel",
+      "score": 0.974,
+      "box": [
+       279,
+       244,
+       590,
+       413
+      ]
+     },
+     {
+      "label": "Fender",
+      "score": 0.956,
+      "box": [
+       88,
+       226,
+       136,
+       323
+      ]
+     },
+     {
+      "label": "Trunk",
+      "score": 0.954,
+      "box": [
+       482,
+       236,
+       758,
+       398
+      ]
+     },
+     {
+      "label": "Back-window",
+      "score": 0.932,
+      "box": [
+       232,
+       158,
+       329,
+       249
+      ]
+     },
+     {
+      "label": "Back-windshield",
+      "score": 0.915,
+      "box": [
+       390,
+       158,
+       646,
+       258
+      ]
+     },
+     {
+      "label": "Mirror",
+      "score": 0.809,
+      "box": [
+       137,
+       207,
+       165,
+       233
+      ]
+     },
+     {
+      "label": "License-plate",
+      "score": 0.738,
+      "box": [
+       655,
+       295,
+       729,
+       352
+      ]
+     },
+     {
+      "label": "Back-window",
+      "score": 0.669,
+      "box": [
+       298,
+       172,
+       346,
+       255
+      ]
+     },
+     {
+      "label": "Windshield",
+      "score": 0.648,
+      "box": [
+       384,
+       154,
+       642,
+       254
+      ]
+     },
+     {
+      "label": "Tail-light",
+      "score": 0.614,
+      "box": [
+       732,
+       256,
+       757,
+       316
+      ]
+     }
+    ]
+   }
+  },
+  "Car damages 409.png": {
+   "size": [
+    798,
+    598
+   ],
+   "truth_types": [
+    "Broken part",
+    "Dent",
+    "Other damage",
+    "Paint chip",
+    "Scratch"
+   ],
+   "truth_instances": 18,
+   "damaged_parts": {
+    "Back-bumper": [
+     "Broken part",
+     "Missing part",
+     "Scratch"
+    ],
+    "Front-wheel": [
+     "Broken part"
+    ],
+    "Quarter-panel": [
+     "Scratch"
+    ],
+    "Rocker-panel": [
+     "Scratch"
+    ]
+   },
+   "unlinked_damage": [
+    "Broken part"
+   ],
+   "needs_review": true,
+   "review_reasons": [
+    "damage was found that does not sit on any identified part: Broken part",
+    "damage straddles a panel edge, so the part may be wrong: Broken part on Front-wheel (51% inside)"
+   ],
+   "detections": {
+    "damage": [
+     {
+      "label": "Missing part",
+      "score": 0.988,
+      "box": [
+       59,
+       381,
+       162,
+       464
+      ]
+     },
+     {
+      "label": "Scratch",
+      "score": 0.93,
+      "box": [
+       349,
+       397,
+       376,
+       411
+      ]
+     },
+     {
+      "label": "Scratch",
+      "score": 0.846,
+      "box": [
+       520,
+       372,
+       561,
+       390
+      ]
+     },
+     {
+      "label": "Broken part",
+      "score": 0.839,
+      "box": [
+       696,
+       183,
+       760,
+       303
+      ]
+     },
+     {
+      "label": "Broken part",
+      "score": 0.798,
+      "box": [
+       687,
+       230,
+       758,
+       337
+      ]
+     },
+     {
+      "label": "Scratch",
+      "score": 0.792,
+      "box": [
+       403,
+       327,
+       466,
+       358
+      ]
+     },
+     {
+      "label": "Scratch",
+      "score": 0.784,
+      "box": [
+       512,
+       359,
+       587,
+       402
+      ]
+     },
+     {
+      "label": "Broken part",
+      "score": 0.749,
+      "box": [
+       739,
+       200,
+       760,
+       248
+      ]
+     },
+     {
+      "label": "Broken part",
+      "score": 0.748,
+      "box": [
+       711,
+       179,
+       760,
+       250
+      ]
+     },
+     {
+      "label": "Broken part",
+      "score": 0.673,
+      "box": [
+       32,
+       291,
+       407,
+       526
+      ]
+     },
+     {
+      "label": "Scratch",
+      "score": 0.601,
+      "box": [
+       340,
+       393,
+       406,
+       458
+      ]
+     }
+    ],
+    "parts": [
+     {
+      "label": "Back-door",
+      "score": 0.996,
+      "box": [
+       414,
+       91,
+       614,
+       416
+      ]
+     },
+     {
+      "label": "Front-door",
+      "score": 0.996,
+      "box": [
+       555,
+       89,
+       715,
+       372
+      ]
+     },
+     {
+      "label": "Back-bumper",
+      "score": 0.996,
+      "box": [
+       26,
+       298,
+       422,
+       522
+      ]
+     },
+     {
+      "label": "Back-wheel",
+      "score": 0.996,
+      "box": [
+       354,
+       372,
+       494,
+       565
+      ]
+     },
+     {
+      "label": "Back-windshield",
+      "score": 0.992,
+      "box": [
+       65,
+       109,
+       348,
+       228
+      ]
+     },
+     {
+      "label": "Rocker-panel",
+      "score": 0.986,
+      "box": [
+       504,
+       306,
+       697,
+       435
+      ]
+     },
+     {
+      "label": "Quarter-panel",
+      "score": 0.977,
+      "box": [
+       272,
+       210,
+       522,
+       430
+      ]
+     },
+     {
+      "label": "Back-window",
+      "score": 0.969,
+      "box": [
+       432,
+       104,
+       575,
+       204
+      ]
+     },
+     {
+      "label": "Trunk",
+      "score": 0.946,
+      "box": [
+       45,
+       101,
+       366,
+       394
+      ]
+     },
+     {
+      "label": "License-plate",
+      "score": 0.901,
+      "box": [
+       62,
+       382,
+       156,
+       464
+      ]
+     },
+     {
+      "label": "Tail-light",
+      "score": 0.882,
+      "box": [
+       191,
+       233,
+       401,
+       319
+      ]
+     },
+     {
+      "label": "Tail-light",
+      "score": 0.88,
+      "box": [
+       187,
+       235,
+       284,
+       317
+      ]
+     },
+     {
+      "label": "Front-wheel",
+      "score": 0.844,
+      "box": [
+       681,
+       240,
+       758,
+       335
+      ]
+     },
+     {
+      "label": "Front-window",
+      "score": 0.843,
+      "box": [
+       562,
+       98,
+       687,
+       194
+      ]
+     }
+    ]
+   }
+  },
+  "Car damages 772.png": {
+   "size": [
+    792,
+    605
+   ],
+   "truth_types": [
+    "Broken part",
+    "Dent",
+    "Missing part",
+    "Other damage",
+    "Paint chip",
+    "Scratch"
+   ],
+   "truth_instances": 9,
+   "damaged_parts": {
+    "Back-bumper": [
+     "Broken part"
+    ],
+    "Trunk": [
+     "Broken part"
+    ]
+   },
+   "unlinked_damage": [
+    "Missing part"
+   ],
+   "needs_review": true,
+   "review_reasons": [
+    "damage was found that does not sit on any identified part: Missing part",
+    "damage straddles a panel edge, so the part may be wrong: Broken part on Trunk (65% inside)"
+   ],
+   "detections": {
+    "damage": [
+     {
+      "label": "Broken part",
+      "score": 0.853,
+      "box": [
+       183,
+       300,
+       729,
+       445
+      ]
+     },
+     {
+      "label": "Broken part",
+      "score": 0.766,
+      "box": [
+       184,
+       321,
+       221,
+       432
+      ]
+     },
+     {
+      "label": "Missing part",
+      "score": 0.717,
+      "box": [
+       47,
+       264,
+       88,
+       308
+      ]
+     },
+     {
+      "label": "Broken part",
+      "score": 0.676,
+      "box": [
+       152,
+       176,
+       751,
+       488
+      ]
+     }
+    ],
+    "parts": [
+     {
+      "label": "Back-bumper",
+      "score": 0.993,
+      "box": [
+       150,
+       293,
+       753,
+       505
+      ]
+     },
+     {
+      "label": "Tail-light",
+      "score": 0.986,
+      "box": [
+       142,
+       165,
+       194,
+       322
+      ]
+     },
+     {
+      "label": "Trunk",
+      "score": 0.985,
+      "box": [
+       204,
+       166,
+       719,
+       412
+      ]
+     },
+     {
+      "label": "Tail-light",
+      "score": 0.98,
+      "box": [
+       696,
+       157,
+       749,
+       308
+      ]
+     },
+     {
+      "label": "Back-windshield",
+      "score": 0.953,
+      "box": [
+       194,
+       50,
+       702,
+       181
+      ]
+     },
+     {
+      "label": "Roof",
+      "score": 0.9,
+      "box": [
+       239,
+       30,
+       618,
+       69
+      ]
+     }
+    ]
+   }
+  },
+  "Car damages 982.png": {
+   "size": [
+    575,
+    430
+   ],
+   "truth_types": [
+    "Broken part",
+    "Dent",
+    "Missing part",
+    "Other damage",
+    "Paint chip",
+    "Scratch"
+   ],
+   "truth_instances": 19,
+   "damaged_parts": {
+    "Front-bumper": [
+     "Broken part"
+    ],
+    "Grille": [
+     "Missing part"
+    ],
+    "Headlight": [
+     "Missing part"
+    ],
+    "Hood": [
+     "Broken part"
+    ]
+   },
+   "unlinked_damage": [],
+   "needs_review": true,
+   "review_reasons": [
+    "damage straddles a panel edge, so the part may be wrong: Broken part on Hood (74% inside); Broken part on Front-bumper (71% inside)"
+   ],
+   "detections": {
+    "damage": [
+     {
+      "label": "Broken part",
+      "score": 0.987,
+      "box": [
+       34,
+       180,
+       404,
+       403
+      ]
+     },
+     {
+      "label": "Broken part",
+      "score": 0.975,
+      "box": [
+       199,
+       201,
+       374,
+       294
+      ]
+     },
+     {
+      "label": "Broken part",
+      "score": 0.938,
+      "box": [
+       51,
+       181,
+       369,
+       302
+      ]
+     },
+     {
+      "label": "Broken part",
+      "score": 0.809,
+      "box": [
+       51,
+       155,
+       416,
+       249
+      ]
+     },
+     {
+      "label": "Missing part",
+      "score": 0.739,
+      "box": [
+       216,
+       243,
+       276,
+       275
+      ]
+     },
+     {
+      "label": "Missing part",
+      "score": 0.679,
+      "box": [
+       56,
+       189,
+       112,
+       261
+      ]
+     },
+     {
+      "label": "Missing part",
+      "score": 0.649,
+      "box": [
+       51,
+       188,
+       219,
+       292
+      ]
+     },
+     {
+      "label": "Broken part",
+      "score": 0.62,
+      "box": [
+       64,
+       185,
+       310,
+       253
+      ]
+     }
+    ],
+    "parts": [
+     {
+      "label": "Hood",
+      "score": 0.999,
+      "box": [
+       65,
+       112,
+       439,
+       227
+      ]
+     },
+     {
+      "label": "Front-bumper",
+      "score": 0.997,
+      "box": [
+       34,
+       204,
+       403,
+       403
+      ]
+     },
+     {
+      "label": "Front-wheel",
+      "score": 0.99,
+      "box": [
+       381,
+       224,
+       451,
+       372
+      ]
+     },
+     {
+      "label": "Fender",
+      "score": 0.988,
+      "box": [
+       354,
+       119,
+       468,
+       270
+      ]
+     },
+     {
+      "label": "Headlight",
+      "score": 0.987,
+      "box": [
+       200,
+       195,
+       377,
+       288
+      ]
+     },
+     {
+      "label": "Windshield",
+      "score": 0.981,
+      "box": [
+       220,
+       48,
+       449,
+       122
+      ]
+     },
+     {
+      "label": "Front-door",
+      "score": 0.971,
+      "box": [
+       453,
+       40,
+       519,
+       241
+      ]
+     },
+     {
+      "label": "Rocker-panel",
+      "score": 0.962,
+      "box": [
+       452,
+       189,
+       519,
+       278
+      ]
+     },
+     {
+      "label": "Front-window",
+      "score": 0.948,
+      "box": [
+       461,
+       45,
+       497,
+       116
+      ]
+     },
+     {
+      "label": "Mirror",
+      "score": 0.916,
+      "box": [
+       461,
+       92,
+       523,
+       124
+      ]
+     },
+     {
+      "label": "Grille",
+      "score": 0.879,
+      "box": [
+       56,
+       194,
+       217,
+       290
+      ]
+     },
+     {
+      "label": "Back-window",
+      "score": 0.806,
+      "box": [
+       488,
+       43,
+       522,
+       89
+      ]
+     },
+     {
+      "label": "Back-door",
+      "score": 0.778,
+      "box": [
+       486,
+       33,
+       537,
+       194
+      ]
+     },
+     {
+      "label": "Back-wheel",
+      "score": 0.776,
+      "box": [
+       510,
+       139,
+       543,
+       208
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "threshold_sweep": [
+  {
+   "threshold": 0.3,
+   "found": 24,
+   "of": 28,
+   "recall": 0.857,
+   "false_types": 1
+  },
+  {
+   "threshold": 0.35,
+   "found": 23,
+   "of": 28,
+   "recall": 0.821,
+   "false_types": 1
+  },
+  {
+   "threshold": 0.4,
+   "found": 19,
+   "of": 28,
+   "recall": 0.679,
+   "false_types": 1
+  },
+  {
+   "threshold": 0.45,
+   "found": 17,
+   "of": 28,
+   "recall": 0.607,
+   "false_types": 1
+  },
+  {
+   "threshold": 0.5,
+   "found": 13,
+   "of": 28,
+   "recall": 0.464,
+   "false_types": 1
+  },
+  {
+   "threshold": 0.6,
+   "found": 11,
+   "of": 28,
+   "recall": 0.393,
+   "false_types": 1
+  },
+  {
+   "threshold": 0.7,
+   "found": 9,
+   "of": 28,
+   "recall": 0.321,
+   "false_types": 1
+  }
+ ],
+ "operating_threshold": 0.6
+}

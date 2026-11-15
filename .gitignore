@@ -1,0 +1,10 @@
+data/raw_policies/
+__pycache__/
+.pytest_cache/
+.env
+.venv/
+venv/
+outputs/partial_*.json
+outputs/eval_*.json
+weights/*.pt
+*.egg-info/
